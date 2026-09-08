@@ -1,6 +1,6 @@
-# GenAI Agent – Ollama Setup on Windows
+# AI Agent – Ollama Setup on Windows
 
-This guide explains how to install **Ollama**, download the **Llama 3.2** model, and run it locally on Windows as the foundation for a GenAI Agent.
+This guide explains how to install **Ollama**, download the **Llama 3.2** model, and run it locally on Windows as the foundation for a AI Agent.
 
 ## Prerequisites
 
@@ -96,7 +96,7 @@ Or:
 Invoke-WebRequest http://localhost:11434/api/tags
 ```
 
-## 6. GenAI Agent Architecture
+## 6. AI Agent Architecture
 
 Once Ollama and Llama 3.2 are running, the Python application can use Ollama as the local LLM.
 
@@ -111,7 +111,7 @@ Once Ollama and Llama 3.2 are running, the Python application can use Ollama as 
                          |
                          v
                   +--------------+
-                  |  GenAI Agent |
+                  |  AI Agent |
                   +--------------+
                     /    |     \
                    /     |      \
@@ -161,7 +161,7 @@ ollama rm llama3.2
 ollama ps
 ```
 
-## 8. Next Step – Build the GenAI Agent
+## 8. Next Step – Build the AI Agent
 
 The next step is to create a Python application that communicates with Ollama.
 
@@ -171,7 +171,7 @@ For example:
 User
   |
   v
-GenAI Agent
+AI Agent
   |
   +----> Ollama / Llama 3.2
   |
@@ -216,4 +216,4 @@ ollama run llama3.2
 ollama list
 ```
 
-After this setup, Ollama provides the local LLM runtime that can be integrated into the GenAI Agent.
+After this setup, Ollama provides the local LLM runtime that can be integrated into the AI Agent.
