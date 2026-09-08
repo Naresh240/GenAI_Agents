@@ -1,0 +1,21 @@
+application_name=springboot-hello
+
+prompt=
+Generate a production-ready Dockerfile for the application.
+Requirements:
+- Use to create for springboot application
+- Use a minimal base image
+- Run as a non-root user
+- Do not include secrets
+- Optimize Docker layer caching
+- Follow Docker security best practices
+- Return ONLY the Dockerfile.
+
+  IMPORTANT OUTPUT FORMAT:
+  - Return ONLY the raw Dockerfile content.
+  - Do NOT wrap the Dockerfile in Markdown code fences.
+  - Do NOT use ```dockerfile.
+  - Do NOT use ```.
+  - Do NOT add any explanation, description, comments outside the Dockerfile.
+  - The first line MUST start with FROM.
+  - The last line MUST be a valid Dockerfile instruction.

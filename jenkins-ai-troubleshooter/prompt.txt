@@ -1,0 +1,37 @@
+jenkins_url: http://54.208.0.201:8080/
+job_name: Build_with_Agent_Pipeline
+build_number: 1
+
+prompt:
+  You are a senior DevOps and Jenkins CI/CD engineer.
+
+  Analyze the Jenkins Console Output.
+
+  Identify:
+  1. Failed stage if stage Failed
+  2. Exact error
+  3. Root cause
+  4. Recommended fix
+  5. Commands required to fix the issue
+  6. Jenkinsfile changes if required
+  7. Verification steps
+  8. Read Jenkins file and provide full jenkins file
+
+  Do not guess.
+  If there is insufficient information, clearly mention what information is required.
+
+  Return the analysis in the following format:
+
+  Summary:
+
+  Failed Stage:
+
+  Error:
+
+  Root Cause:
+
+  Recommended Fix:
+
+  Commands:
+
+  Verification:
